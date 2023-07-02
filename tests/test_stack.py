@@ -47,4 +47,3 @@ class StackTestCase(TestCase):
 
         self.assertEqual(self.stack.top.data, 'data1')
         self.assertEqual(data, 'data2')
-
