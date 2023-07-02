@@ -33,4 +33,3 @@ class StackTestCase(TestCase):
     def test_attribute_error(self):
         with self.assertRaises(AttributeError):
             _ = self.stack.top.next_node.next_node.next_node.data
-
